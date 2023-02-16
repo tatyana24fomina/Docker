@@ -1,7 +1,4 @@
-volumes:
- data:
- 
- services:
+services:
   postgres:
    image: postgres:latest
    environment:
